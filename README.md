@@ -5,9 +5,11 @@
 Public download host for [RidoGuard](https://ridoco.com/ridoit/ridoguard), a Windows
 privacy and security tool by [Ridoco](https://ridoco.com).
 
-## [Download the latest release](https://github.com/Ridocompany/ridoguard-releases/releases/latest)
+## Install
 
-That link always resolves to the newest version.
+    winget install RidoIT.RidoGuard
+
+Or [download the latest release](https://github.com/Ridocompany/ridoguard-releases/releases/latest) directly. That link always resolves to the newest version.
 
 RidoGuard turns off telemetry, blocks tracking domains at the firewall, hardens DNS and trims
 background services. Applying a profile, removing preinstalled apps and changing service presets
@@ -15,7 +17,7 @@ are written to an audit log and can be undone with the command line rollback.
 
 ## Why this repository exists
 
-It holds published builds only. The source is private. Downloads live here so they can be fetched
+It holds published builds only. The source is private. Downloads live here, fetchable
 without an account, and the winget package manifest points at this repository.
 
 Every release ships a `SHA256SUMS` file. Verify before running, substituting the version you
