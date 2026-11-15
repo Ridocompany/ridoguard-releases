@@ -11,8 +11,8 @@ privacy and security tool by [Ridoco](https://ridoco.com).
 
 Or [download the latest release](https://github.com/Ridocompany/ridoguard-releases/releases/latest) directly. That link always resolves to the newest version.
 
-RidoGuard turns off telemetry, blocks tracking domains at the firewall, hardens DNS and trims
-background services. Applying a profile, removing preinstalled apps and changing service presets
+RidoGuard turns off telemetry, blocks the Windows telemetry service and its helper programs in
+the firewall, hardens DNS and trims background services. Applying a profile, removing preinstalled apps and changing service presets
 are written to an audit log and can be undone with the command line rollback.
 
 ## Why this repository exists
